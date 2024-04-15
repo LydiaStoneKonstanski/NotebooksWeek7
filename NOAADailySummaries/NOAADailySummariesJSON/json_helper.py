@@ -34,7 +34,7 @@ def api_request():
             print(f"URL: {base_url}")
 
     print (f"Results has {len(data_list)} entries.")
-    save_json('NOAADailySummariesJSON/Combined.json', data_list)
+    save_json('Combined.json', data_list)
 
 
 if __name__=='__main__':
